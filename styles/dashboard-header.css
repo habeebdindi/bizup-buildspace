@@ -1,0 +1,12 @@
+header {
+    background-color: white;
+ 	height: 70px;
+ 	width: 100%;
+ 	border-bottom: 1px solid #CCCCCC;
+    background-image: url('../images/loggcp.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

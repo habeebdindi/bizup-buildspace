@@ -1,0 +1,68 @@
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: white;
+ 	height: 70px;
+ 	width: 100%;
+ 	border-bottom: 1px solid #CCCCCC;
+    background-image: url('../images/loggcp.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.page-container {
+	position: relative;
+	min-height: 100%vh;
+}
+
+.content {
+	padding-bottom: 70px;
+}
+/* Styles for the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Styles for the sections */
+section {
+    margin: 10px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
