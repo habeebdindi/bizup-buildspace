@@ -1,12 +1,16 @@
 /* Reset margin on the body to remove unwanted whitespace */
 body, h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'PT Mono', monospace;
 }
 
 .page-container {
@@ -32,7 +36,9 @@ nav li {
 nav a {
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-family: 'PT Mono', monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Styles for the sections */
@@ -57,3 +63,11 @@ h2 {
         margin-bottom: 10px;
     }
 }
+
+ div {
+        color: white;
+        font-size: 24px;
+        border: 2px solid rgb(86, 158, 71);
+        padding: 10px;
+        margin: 5px;
+    }
